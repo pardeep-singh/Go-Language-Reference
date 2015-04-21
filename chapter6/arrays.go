@@ -27,4 +27,14 @@ func main() {
 		}
 		fmt.Println(elementsSum/float64(len(floatArray)))
 	}
+
+	{
+		var intArray [5][5] int64
+		for i:=0;i<len(intArray);i++{
+			for j:=0;j<len(intArray[i]);j++{
+				fmt.Print(intArray[i][j]," ")
+			}
+			fmt.Println()
+		}
+	}
 }
